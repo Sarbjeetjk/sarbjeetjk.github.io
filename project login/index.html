@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a2ca5fbfde.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="login.css">
+
+    <title>modern login page</title>
+</head>
+
+<body>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>create account</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus"></i></a>&nbsp;&nbsp;
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook"></i></i></a>&nbsp;&nbsp;
+                    <a href="#" class="icon"><i class="fa-brands fa-square-github"></i></a>&nbsp;&nbsp;
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin"></i></a>&nbsp;&nbsp;
+                </div>
+                <span>or use email for registration</span>
+                <input type="text" placeholder="name">
+                <input type="password" placeholder="password">
+                <input type="email" placeholder="email">
+                <button>sign up</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>sign in</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus"></i></a>&nbsp;&nbsp;
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook"></i></a>&nbsp;&nbsp;
+                    <a href="#" class="icon"><i class="fa-brands fa-square-github"></i></a>&nbsp;&nbsp;
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin"></i></a>&nbsp;&nbsp;
+                </div>
+                <span>or use your email or password</span>
+                <input type="email" placeholder="email">
+                <input type="password" placeholder="password">
+                <a href="#">forget your password</a>
+                <button>sign in</button>
+            </form> 
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Welcome back!</h1>
+                    <p>Enetr your personal details to use all of site feature</p>
+                    <button class="hidden" id="login">sign in</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Welcome friend!</h1>
+                    <p>Enetr your personal details to use all of site feature</p>
+                    <button class ="hidden" id="register">sign up</button>
+                </div>
+            </div>
+        </div>
+     </div>
+     
+    <script src="script.js"></script>  
+</body>
+
+</html>
+
