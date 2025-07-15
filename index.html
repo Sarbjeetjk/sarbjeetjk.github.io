@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="nav_d">
+    <nav>
+        <img src="" class="logo">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#services">service</a></li>
+            <li><a href="#portfolio">project</a></li>
+            <li><a href="#contact">support</a></li>
+            <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-solid fa-bars-progress" onclick="openmenu()"></i>
+    </nav>
+    </div>
+    <div id="header">
+        
+      <div class="container">
+         <div class="header_text">
+            <p>Full Stack Developer</p>
+            <h1>Hi, I'm <span>Sarbjeet</span> <br>Kumar From Bihar</h1>
+         </div>
+      </div>
+    </div>
+    <!-- ...........About section............ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about_c1">
+                    <img src="a_img.png" alt="">
+                </div>
+                <div class="about_c2">
+                    <h1>About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim exercitationem numquam voluptates veniam molestias dolore nulla officiis expedita quidem? Molestiae ab perferendis nesciunt debitis facilis aspernatur velit magni veniam eum.</p>
+                    <div class="tab_titles">
+                        <p class="tab_links active_link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab_links" onclick="opentab('Project')">Project</p>
+                        <p class="tab_links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab_contents active_tab" id="Skills">
+                        <ul>
+                            <li><span>Programming language</span><br>HTLM, C++, JS, problem analytic </li>
+                            <li><span>Technical SKill</span><br>Know about the basic  </li>
+                            <li><span>Communication Skill</span><br>knowing about how to communicate with other</li>
+                        </ul>
+                    </div>
+                    <div class="tab_contents" id="Project">
+                        <ul>
+                            <li><span>Time Display</span><br>Developed a time clock with the help of Html, Css & Javascript</li>
+                            <li><span>Web Login Form</span><br>creating a web login form with the help of Html,Css & Javascript</li>
+                            <li><span>Hover Effect</span><br>created a button with hover effect with the help of Html & Css</li>
+                        </ul>
+                    </div>
+                    <div class="tab_contents" id="Education">
+                        <ul>
+                            <li><span>B.tech(cse)</span><br>currently pursuing b.tech from punjab</li>
+                            <li><span>Intermediate/12th</span><br>Securing 68.2% form bseb board,Patna</li>
+                            <li><span>matriculation/10th</span><br>Securing 60% form bseb board,Patna</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--................services.................. -->
+
+    <div id="services">
+        <div class="container">
+            <h1>My Services</h1>
+            <div class="serv_list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web development</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem voluptas excepturi numquam deleniti porro nobis officiis quam tenetur laborum, odio ad pariatur fugit corporis illo quisquam omnis dolores vel dignissimos...</p>
+                    <a href="#">learn more</a>
+
+                </div>
+                <div>
+                    <i class="fa-solid fa-shop-lock"></i>
+                    <i class="fa-solid fa-code-merge"></i>
+                    <h2>App development</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem voluptas excepturi numquam deleniti porro nobis officiis quam tenetur laborum, odio ad pariatur fugit corporis illo quisquam omnis dolores vel dignissimos...</p>
+                    <a href="#">learn more</a>
+
+                </div>
+                <div>
+                    <i class="fa-solid fa-terminal"></i>
+                    <h2>mern development</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem voluptas excepturi numquam deleniti porro nobis officiis quam tenetur laborum, odio ad pariatur fugit corporis illo quisquam omnis dolores vel dignissimos...</p>
+                    <a href="#">learn more</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ..............portfolio........... -->
+    <div id="portfolio">
+        <div class="container">
+            <h1>My Work</h1>
+            <div class="work_list">
+
+                <div class="work">
+                    <img src="H_i.png" alt="work1">
+                    <div class="layer">
+                        <h3>Hover Effect</h3>
+                        <p>created a button with hover effect with the help of Html & Css..
+                        </p>
+                        <a href="/new_file.html\hover_sffect\index.html"target="blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="w_i.png" alt="work2">
+                     <div class="layer">
+                        <h3>Web Login Form</h3>
+                        <p>creating a web login form with the help of Html,Css & Javascript...</p>
+                        <a href="/new_file.html/project login/index.html"target="blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="t_i.png" alt="work3">
+                     <div class="layer">
+                        <h3>Time Display</h3>
+                         <p> Developed a time clock with the help of Html, Css & Javascript...</p>
+                        <a href="/new_file.html/time_dis/index.html"target="blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="btn">see more</a>
+                            
+        </div>
+    </div>
+
+     <!-- ..............contact..............  -->
+      
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+
+                <div class="contact_left">
+                    <h1 class="sub_title">Contact Me</h1>
+                    <p><i class="fa-solid fa-location-arrow"></i>sarbjeetraj03579@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>7635095919</p>
+
+                    <div class="social_icons">
+                        <a href="https://www.facebook.com/arbjeetj.raj?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+
+                        <a href="https://www.instagram.com/raj_sarbjeet_/"><i class="fa-brands fa-instagram"></i></a>
+
+                        <a href="https://www.linkedin.com/in/sarbjeet-raj-482791247?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin-in"></i></a>
+
+                        <a href="https://github.com/Sarbjeetjk"target="blank"><i class="fa-brands fa-github-alt"></i></a>
+
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+
+                    <a href="Resume.pdf" download class="btn btn2">download cv</a>
+                </div>
+
+                <div class="contact_right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text"name="Name" placeholder="Your Name" required>
+                        <input type="Email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your massage"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="masg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © Sarbjeet. Made with <i class="fa-sharp fa-solid fa-heart"></i> by Easy tutorials</p>
+        </div>
+    </div>
+    
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab_links")
+        var tabcontents = document.getElementsByClassName("tab_contents")
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active_link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active_tab");
+            }
+            event.currentTarget.classList.add("active_link");
+            document.getElementById(tabname).classList.add("active_tab");
+
+        }
+    </script>
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyyHOIN4ik7odheAmBcAJ3wAWoLrv-ePYMcyt47JK4NEKUQNvUGT1ByHv4kmk6VjxUK/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const masg = document.getElementById("masg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        masg.innerHTML = "Message sent successfully."
+        setTimeout(function(){
+            masg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "-250px";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-450px";
+    }
+</script>
+</body>
+</html>
