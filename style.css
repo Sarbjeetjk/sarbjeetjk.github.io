@@ -192,8 +192,9 @@ nav ul li a:hover::after{
 }
 .serv_list a{
     text-decoration: none;
-    color: #fff;
+    color: #0882f4;
     font-size: 15px;
+    font-weight: 600;
     margin-top: 20px;
     display: inline-block;
 
@@ -203,6 +204,8 @@ nav ul li a:hover::after{
    color: rgb(3, 10, 10);
    transform: translatey(-10px);
 }
+
+
 /* .............protfolio.......... */
 #portfolio {
     padding: 50px 0 50px 0;
@@ -252,7 +255,9 @@ nav ul li a:hover::after{
     height: 100%;
 }
 .layer h3 {
-    font-weight: 500;
+    font-size: 30px;
+    color: #fddd0c;
+    font-weight: 600;
     margin-bottom: 20px;
 }
 .layer a{
